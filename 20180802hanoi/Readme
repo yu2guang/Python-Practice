@@ -1,0 +1,10 @@
+一、recursive
+	目的：把盤子從origin->final
+	要先把除了最大的盤子的其餘盤子放到暫存區origin->temp
+	目的改為temp->final
+二、while
+	觀察：
+		1.First step：when num is odd/even, smallest plate move to C/B
+		2.smallest plate move when steps is odd
+  		3.when num is odd(False)/even(True), smallest plate move left/right(rotate)
+  		4.except the smallest steps, there is only one way to move the plates
